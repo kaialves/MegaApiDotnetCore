@@ -35,20 +35,20 @@
 
 O repositório MegaApiDotnetCore é uma API desenvolvida em .NET Core 3.1 que fornece dados em formato JSON sobre os chefes da série Mega Man. Este serviço backend utiliza diversas tecnologias modernas para gerenciamento de dados e manipulação de respostas da API.
 
-  #**Tecnologias Utilizadas**
+  # **Tecnologias Utilizadas**
 -.NET Core 3.1
 *Entity Framework Core
 +ASP.NET Core Web API
 Injeção de Dependência
 Banco de Dados SQL Server
 
-  #**Requisitos**
+  # **Requisitos**
 Para executar a API, é necessário ter instalados:
 .NET Core 3.1 SDK
 SQL Server ou outro banco de dados compatível
 Postman (opcional, para testar os endpoints)
 
-#**Endpoints da API:**
+# **Endpoints da API:**
 GET /api/v1/robots: Retorna uma lista de todos os robôs.
 ```
     [
